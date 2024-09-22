@@ -20,8 +20,3 @@ class Code:
         comp = self.COMP_CODES[comp]
         jump = self.binary(self.JUMP_VALUES.index(jump)).zfill(3)
         return '111' + comp + dest + jump
-
-
-if __name__ == '__main__':
-    code = Code()
-    sample1 = " D = D + A "
