@@ -1,3 +1,9 @@
+"""
+Project 6
+From Nand to Tetris course https://www.nand2tetris.org/
+Translate Hack assembly code to binary code
+Usage: >HackTranslator.py filename.asm
+"""
 import sys
 import os
 from Parser import Parser
